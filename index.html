@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our | Creative Works</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Inter&display=swap" rel="stylesheet"/>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; background: #fff; color: #333; line-height: 1.6; }
+    header { background: #f7f7f7; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+    .logo { font-family: 'Playfair Display', serif; font-size: 28px; color: #111; }
+    nav a { margin-left: 20px; text-decoration: none; color: #444; font-weight: 500; }
+    .hero { background: url('https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+            height: 80vh; display: flex; align-items: center; justify-content: center; text-align: center; color: white; }
+    .hero h1 { font-size: 48px; background: rgba(0,0,0,0.5); padding: 20px; border-radius: 12px; }
+    .section { padding: 60px 40px; text-align: center; }
+    .section h2 { font-size: 32px; margin-bottom: 20px; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin-top: 40px; }
+    .card { background: #f9f9f9; border-radius: 16px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); overflow: hidden; }
+    .card img { width: 100%; height: 180px; object-fit: cover; }
+    .card h3 { padding: 15px; font-size: 20px; }
+    footer { background: #111; color: #eee; text-align: center; padding: 20px; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Our</div>
+    <nav>
+      <a href="#wedding">Our Wedding Cards</a>
+      <a href="#design">Our Graphic Design</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to Our Creative Space</h1>
+  </section>
+
+  <section class="section" id="wedding">
+    <h2>Our Wedding Cards</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1557683316-973673baf926?auto=format&fit=crop&w=700&q=60" alt="Card 1">
+        <h3>Elegant Sinhala Design</h3>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1601047135585-6ec7b0c12a74?auto=format&fit=crop&w=700&q=60" alt="Card 2">
+        <h3>Modern Tamil Invitation</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="design">
+    <h2>Our Graphic Design</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1581093588401-ef7c863b1732?auto=format&fit=crop&w=700&q=60" alt="Design 1">
+        <h3>Custom Logo Work</h3>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=700&q=60" alt="Design 2">
+        <h3>Poster & Banner Design</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="reviews">
+    <h2>Customer Reviews</h2>
+    <p>⭐⭐⭐⭐⭐ – "Excellent service and beautiful designs!"</p>
+    <p>⭐⭐⭐⭐⭐ – "Delivered on time and exceeded expectations!"</p>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>📱 WhatsApp: <a href="https://wa.me/94771234567">+94 77 123 4567</a></p>
+    <p>📧 Email: ourdesigns@example.com</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Our. All Rights Reserved.
+  </footer>
+</body>
+</html>
